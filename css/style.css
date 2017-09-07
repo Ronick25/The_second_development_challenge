@@ -1,0 +1,50 @@
+button.start-search {
+    display: block;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 20px;
+    color: #5E5E5E;
+    background-color: #E0E1E2;
+}
+
+input, select {
+    width: 30%;
+}
+
+.container {
+    width: 50%;
+}
+
+.row {
+    padding-left: 15px;
+}
+
+.table {
+    display: none;
+    width: 300px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+button.btn.btn-success.continue-search {
+    margin: 10px;
+    margin-left: 75px;
+}
+
+td {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 100;
+    font-family: Courier;
+    width: 50px;
+    height: 50px;
+    color: black;
+    box-shadow: inset 0 0 0 3px #748677;;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#edit {
+    width: 30px;
+    height: 30px;
+}
