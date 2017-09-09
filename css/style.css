@@ -1,12 +1,3 @@
-button.start-search {
-    display: block;
-    font-weight: bold;
-    border: none;
-    margin-bottom: 20px;
-    color: #5E5E5E;
-    background-color: #E0E1E2;
-}
-
 input, select {
     width: 30%;
 }
@@ -21,30 +12,73 @@ input, select {
 
 .table {
     display: none;
-    width: 300px;
-    margin: auto;
-    padding-top: 20px;
+    padding: 20px;
+    width: 100%;
 }
 
-button.btn.btn-success.continue-search {
-    margin: 10px;
-    margin-left: 75px;
+.matrix {
+    margin: auto;
+    padding-bottom: 20px;
 }
 
 td {
     text-align: center;
-    font-size: 32px;
-    font-weight: 100;
+    font-size: 20px;
+    font-weight: bold;
     font-family: Courier;
-    width: 50px;
-    height: 50px;
+    width: 36px;
+    height: 36px;
     color: black;
-    box-shadow: inset 0 0 0 3px #748677;;
-    border-radius: 10px;
-    padding: 10px;
+    border: 1px solid black;
 }
 
 #edit {
     width: 30px;
     height: 30px;
+}
+
+.button {
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: block;
+    font-weight: bold;
+    border: none;
+    color: #808080;
+    cursor: pointer;
+    font-size:18px;
+    position: relative;
+    background-color: #f39c12;
+    padding: 5px;
+    width: 250px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.button:hover{
+    background: #F5F5DC;
+    box-shadow: 0px 2px 10px 5px #808080;
+    color: #007FFF;
+}
+
+.button:after {
+    content: "";
+    background: #f1c40f;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
 }
