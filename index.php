@@ -6,7 +6,6 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
@@ -19,7 +18,7 @@
         <h5>Размер матрицы(X)</h5>
         <input type="number" class="form-control" id="edge" placeholder="number from 1 to 100" value="25">
     </div>
-    <div class="form-group" class="form-control">
+    <div class="form-group">
         <h5>Разраженность матрицы(R)</h5>
         <input type="number" class="form-control" id="rarefaction" placeholder="number from 1 to 100" value="30">
     </div>
@@ -78,7 +77,6 @@
         </div>
     </div>
 </div>
-<script src="../js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
+<script src="js/bundle.js"></script>
 </body>
 </html>
